@@ -1,6 +1,7 @@
 language: python
-script:
-	- echo "Tests will appear here..."
+
+script: echo "Tests will appear here..."
+
 deploy:
   provider: script
   script: find . \( -path "./css/*" -o -path "./img/*"  -o -path "./js/*" -o -name "*.html" \) -print -exec curl --ftp-create-dirs -T {} sftp://${FTP_URL} --user ${FTP_USER}:${FTP_PASS} \;
