@@ -1,10 +1,16 @@
 language: python
+addons:
+  apt:
+    packages:
+    - lftp
+    ssh_known_hosts: ${FTP_URL}
+os: linux
 
 script: echo "Tests will appear here..."
 
 deploy:
   provider: script
-  script: find . \( -path "./css/*" -o -path "./img/*"  -o -path "./js/*" -o -name "*.html" \) -print -exec curl --ftp-create-dirs -T {} sftp://${FTP_URL} --user ${FTP_USER}:${FTP_PASS} \;
+  script: lftp -u ${FTP_USER},${FTP_PASS} ${FTP_URL} -e "cd www ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; exit"
   on:
     branch: master
 
