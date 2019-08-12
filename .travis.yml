@@ -3,7 +3,7 @@ addons:
   apt:
     packages:
     - lftp
-    ssh_known_hosts: ${FTP_URL}
+  ssh_known_hosts: ${FTP_URL}
 
 script: echo "Tests will appear here..."
 
