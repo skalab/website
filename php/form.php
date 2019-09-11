@@ -10,7 +10,7 @@ $email = htmlspecialchars($_POST["email"]);
 $ip = getenv("REMOTE_ADDR");
  
 $EmailTo = "gael@skalab.fr";
-$Subject = "Skalab: nouveau contact de " + $email;
+$Subject = "Skalab: nouveau contact de ".$email;
 
 $Body .= "Email: ";
 $Body .= $email;
