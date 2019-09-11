@@ -229,6 +229,11 @@
   border: 0;
 }
 
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
 .contact-section {
   padding: 5rem 0 0;
 }
