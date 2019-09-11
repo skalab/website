@@ -11,7 +11,7 @@ before_deploy:
 
 deploy:
   provider: script
-  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; exit"
+  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; exit"
   on:
     branch: master
 
