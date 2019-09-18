@@ -162,7 +162,7 @@
   <?php include('inc/contact.inc.html'); ?>
 
   <!-- Footer -->
-  <?php include('inc/contact.inc.html'); ?>
+  <?php include('inc/footer.inc.html'); ?>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
