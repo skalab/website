@@ -33,11 +33,15 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Nos idées et compétences arrivent très bientôt 🤗</h2>
+          <h2 class="text-white mb-4">Nos expériences et meetups arrivent très bientôt 🤗</h2>
         </div>
       </div>
       <img src="img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
     </div>
+  </section>
+
+  <section id="projects" class="projects-section bg-light">
+    <div class="container"></div>
   </section>
 
   <!-- Signup Section -->
