@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Empowering tech teams | Nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
+  <meta name="description" content="Expert cloud et infra, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
   <meta name="author" content="Gaël D. Barbier from Skalab team">
 
   <title>Empowering tech teams | Skalab 🚀</title>
