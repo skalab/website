@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Expert cloud et infra, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
+  <meta name="description" content="Accompagnement DevOps | Expert cloud et infra, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
   <meta name="author" content="Gaël D. Barbier from Skalab team">
 
   <title>Empowering tech teams | Skalab 🚀</title>
@@ -97,9 +97,9 @@
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Architecture et infrastructure cloud ☁️🎯</h4>
                 <p class="mb-0 text-white-50">
-                  Infra As Code, immutable infrastructure, haute-disponibilité, IoT, cloud, monitoring et alerting.<br />
+                  Infra As Code, immutable infrastructure, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting.<br />
                   <br />
-                  Nous concevons des architectures pour vous permettre de déployer vos applications rapidement et sans coupure.
+                  Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.
                 </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
@@ -143,7 +143,7 @@
                 <p class="mb-0 text-white-50">
                   Se connaître, mieux communiquer, travailler en groupe, gérer le conflit.<br />
                   <br />
-                  Management 3.0, moving motivators, leadership development, cowalking.<br />
+                  Management 3.0, moving motivators, leadership development, intelligence collective, cowalking.<br />
                   Issues des pratiques Agiles, nous animons des <b>formations</b> et <b>ateliers</b> avec pour seul objectif : rendre les individus meilleurs.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
