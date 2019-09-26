@@ -61,7 +61,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="devops" class="projects-section bg-light">
     <div class="container">
 
       <!-- Project One Row -->
