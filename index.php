@@ -49,7 +49,7 @@
             <b>Orienté sur les valeurs et indépendant</b>,<br />on vous accompagne sur la construction tech de vos idées.<br />
             <br />
             Nous aidons à initier, co-créons et accélérons vos projets. 🚀<br />
-            Nous nous rassemblons autour de notre expertise technique<br />et de management réinventé pour aller chercher le potentiel des humains de votre équipe.<br />
+            Nous nous rassemblons autour de notre expertise technique DevOps, Cloud<br />et de management réinventé pour aller chercher le potentiel des humains de votre équipe.<br />
             <br />
             On préfère vous prévenir : on est complètement fan
             des healthtech/assurtech, d'IoT, de sécurité et d'éducation. ❤️
