@@ -97,8 +97,8 @@
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Architecture et infrastructure cloud ☁️🎯</h4>
                 <p class="mb-0 text-white-50">
-                  Infra As Code, immutable infrastructure, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting.<br />
-                  <br />
+                  Infra As Code, conteneurs, immutable infrastructure, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting.<br />
+                  <br />Monter votre infra from scratch ? Migrer vers le cloud ?<br />M
                   Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.
                 </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
@@ -117,11 +117,11 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Building de votre tech team 👨‍👩‍👧‍👦🏅</h4>
+                <h4 class="text-white">Building de votre team Ops 👨‍👩‍👧‍👦🏅</h4>
                 <p class="mb-0 text-white-50">
                   Nous sommes persuadé que l'humain est la clé du succès.<br />
                   <br />
-                  Identifier les rôles clés, recruter et construire son équipe, s'organiser, créer un dynamique positive et un sentiment d'appartenance fort : pas facile ? On vous accompagne !
+                  Identifier les rôles clés, recruter et construire son équipe, s'organiser, gérer l'Ops run du quotidien  : pas facile ? On vous accompagne !
                 </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
