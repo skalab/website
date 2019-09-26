@@ -98,7 +98,7 @@
                 <h4 class="text-white">Architecture et infrastructure cloud ☁️🎯</h4>
                 <p class="mb-0 text-white-50">
                   Infra As Code, conteneurs, immutable infrastructure, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting.<br />
-                  <br />Monter votre infra from scratch ? Migrer vers le cloud ?<br />M
+                  <br />Créer votre infra from scratch, migrer vers le cloud, ...<br />
                   Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.
                 </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
