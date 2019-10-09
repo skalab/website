@@ -21,6 +21,9 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.css" rel="stylesheet">
 
+  <!-- Load favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
 </head>
 
 <body id="page-top">
