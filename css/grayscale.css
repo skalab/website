@@ -150,15 +150,15 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #647aa1;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #515660;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #515660;
   color: white;
 }
 
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #647aa1;
   }
 }
 
@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #647aa1;
     border-width: .25rem;
     width: 30%;
   }
