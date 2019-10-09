@@ -37,7 +37,8 @@
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Make your tech ideas awesome</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5">Expert cloud et infra, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Nous connaitre</a>
+        <a href="#devops" class="btn btn-primary btn-fix js-scroll-trigger">Nos services ⚙️</a>    
+        <a href="#about" class="btn btn-primary btn-fix js-scroll-trigger">Nous connaitre 👨‍💻</a>
       </div>
     </div>
   </header>
