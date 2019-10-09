@@ -166,6 +166,10 @@
   background-color: #467370 !important;
 }
 
+.btn-fix {
+  width: 250px
+}
+
 .about-section {
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
