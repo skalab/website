@@ -39,16 +39,20 @@
           <h2 class="text-white mb-4">Nos expériences et meetups arrivent très bientôt 🤗</h2>
         </div>
       </div>
+      <br />
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <form class="form-inline d-flex" id="contactForm">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Votre mail pour être informé quand nos articles seront prêt 🗣️" required>
+            <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
+          </form>
+          <div id="msgSubmit" class="text-white h2 hidden">Message envoyé 😉</div>
+          <br /><br />
+        </div>
+      </div>
       <img src="img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
     </div>
   </section>
-
-  <section id="projects" class="projects-section bg-light">
-    <div class="container"></div>
-  </section>
-
-  <!-- Signup Section -->
-  <?php include('inc/signup.inc.html'); ?>
 
   <!-- Contact Section -->
   <?php include('inc/contact.inc.html'); ?>
