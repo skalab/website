@@ -5,8 +5,13 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Empowering tech teams | Expert cloud et infra, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
+  <meta name="description" content="Empowering tech teams | Expert cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
   <meta name="author" content="Gaël D. Barbier from Skalab team">
+  <meta property="og:title" content="Skalab | Expert Cloud et DevOps 🚀" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://skalab.fr/" />
+  <meta property="og:description" content="Expert cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0" />
+  <meta property="og:image" content="https://skalab.fr/img/skalab.png" />
 
   <title>Skalab | Expert Cloud et DevOps 🚀</title>
 
@@ -36,7 +41,7 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Make your tech ideas awesome</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Expert cloud et infra, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Expert cloud infra et architecture, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
         <a href="#about" class="btn btn-primary btn-fix js-scroll-trigger"><i class="fas fa-code fa-lg"></i> Nos services</a>    
         <a href="#about" class="btn btn-primary btn-fix js-scroll-trigger"><i class="fas fa-users fa-lg"></i> Nous connaitre️</a>
       </div>
