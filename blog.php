@@ -46,13 +46,17 @@
             <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Votre mail pour être informé quand nos articles seront prêt 🗣️" required>
             <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
           </form>
-          <div id="msgSubmit" class="text-white h2 hidden">Message envoyé 😉</div>
+          <div id="msgSubmit" class="text-white h3 hidden">Merci, on arrive très vite 😉</div>
           <br /><br />
         </div>
       </div>
       <img src="img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
     </div>
   </section>
+
+  <div class="container">
+    <br /><br />
+  </div>
 
   <!-- Contact Section -->
   <?php include('inc/contact.inc.html'); ?>
