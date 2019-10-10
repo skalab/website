@@ -12,6 +12,9 @@
   <meta property="og:url" content="https://skalab.fr/" />
   <meta property="og:description" content="Expert cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0" />
   <meta property="og:image" content="https://skalab.fr/img/skalab.png" />
+  <meta property="og:image:width" content="1290" />
+  <meta property="og:image:height" content="881" />
+
 
   <title>Skalab | Expert Cloud et DevOps 🚀</title>
 
