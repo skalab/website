@@ -89,7 +89,7 @@
                 <p class="mb-0 text-white-50">
                   Intégration continue, tests automatisés, déploiement continu, brisage des silos Biz / Ops / Dev, évangélisation du mindset agile <br />
                   <br />
-                  Nous sommes persuadés que la collaboration entre les techs, l'automatisation et l’amélioration continue sont essentielles.
+                  Nous sommes persuadés que la collaboration entre les techs, l'automatisation et l’amélioration continue sont essentiels.
                 </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
