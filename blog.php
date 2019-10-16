@@ -43,7 +43,7 @@
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
           <form class="form-inline d-flex" id="contactForm">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Votre mail pour être informé quand nos articles seront prêt 🗣️" required>
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Votre mail pour être informé 🗣️" required>
             <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
           </form>
           <div id="msgSubmit" class="text-white h3 hidden">Merci, on arrive très vite 😉</div>
