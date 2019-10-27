@@ -8,16 +8,14 @@ script: echo "Tests will appear here..."
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
+  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" inc/footer.inc.html
 
 deploy:
-  - provider: script
-    script: sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" inc/footer.inc.html && cat inc/footer.inc.html
-    on:
-      branch: master
-  - provider: script
-    script: ftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput favicon.ico ; mput *.php ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; mput -d inc/* ; exit"
-    on:
-      branch: master
+  skip_cleanup: true
+  provider: script
+  script: ftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput favicon.ico ; mput *.php ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; mput -d inc/* ; exit"
+  on:
+    branch: master
 
 notifications:
   email:
