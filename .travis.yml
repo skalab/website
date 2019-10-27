@@ -8,7 +8,6 @@ script: echo "Tests will appear here..."
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
-  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" inc/footer.inc.html
 
 deploy:
   provider: script
