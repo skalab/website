@@ -13,7 +13,7 @@ before_deploy:
 deploy:
   skip_cleanup: true
   provider: script
-  script: ftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput favicon.ico ; mput *.php ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; mput -d inc/* ; exit"
+  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput favicon.ico ; mput *.php ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; mput -d inc/* ; exit"
   on:
     branch: master
 
