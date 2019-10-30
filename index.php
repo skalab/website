@@ -5,18 +5,18 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Empowering tech teams | Expert cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
+  <meta name="description" content="Empowering tech teams | Experts cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0">
   <meta name="author" content="Gaël D. Barbier from Skalab team">
   <meta property="og:title" content="Skalab | Expert Cloud et DevOps 🚀" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://skalab.fr/" />
-  <meta property="og:description" content="Expert cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0" />
+  <meta property="og:description" content="Experts cloud, infra et architecture, nous accompagnons les entreprises du numérique au travers du DevOps et du Management 3.0" />
   <meta property="og:image" content="https://skalab.fr/img/skalab.png" />
   <meta property="og:image:width" content="922" />
   <meta property="og:image:height" content="630" />
 
 
-  <title>Skalab | Expert Cloud et DevOps 🚀</title>
+  <title>Skalab | Experts Cloud et DevOps 🚀</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
