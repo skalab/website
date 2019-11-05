@@ -1,25 +1,28 @@
-os: linux
-addons:
-  apt:
-    packages:
-    - lftp
+language: ruby
+rvm:
+  - 2.6
 
-script: echo "Tests will appear here..."
+install: gem install jekyll html-proofer
+
+script: jekyll build && htmlproofer ./_site
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
-  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" _layouts/default.html
+  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" _includes/footer.html
 
 deploy:
   skip_cleanup: true
   provider: script
-  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput favicon.ico ; mput *.php ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; mput -d inc/* ; exit"
+  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput .htaccess; mput favicon.ico ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; exit"
   on:
     branch: master
 
-notifications:
-  email:
-    recipients:
-      - gael@skalab.fr
-    on_success: alway
-    on_failure: alway
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+    - lftp
+cache: bundler
