@@ -1,10 +1,10 @@
 language: ruby
 rvm:
-  - 2.6
+  - 2.5
 
 install: gem install jekyll html-proofer
 
-script: jekyll build && htmlproofer ./_site
+script: jekyll build && htmlproofer --http-status-ignore "999" ./_site
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
