@@ -2,10 +2,9 @@ language: ruby
 rvm:
   - 2.5.3
 
-# We use gemfile instead, to use Gem bundle cache
-#install: gem install jekyll html-proofer
+install: gem install jekyll html-proofer
 
-script: bundle exec jekyll build && bundle exec htmlproofer --http-status-ignore "999" ./_site
+script: jekyll build && htmlproofer --http-status-ignore "999" ./_site
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
