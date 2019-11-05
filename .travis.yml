@@ -4,11 +4,13 @@ rvm:
 
 install: gem install jekyll html-proofer
 
-script: jekyll build && htmlproofer --http-status-ignore "999" ./_site
+script:
+  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" _includes/footer.html
+  - jekyll build
+  - htmlproofer --http-status-ignore "999" ./_site
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
-  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" _includes/footer.html
 
 deploy:
   skip_cleanup: true
