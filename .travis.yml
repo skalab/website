@@ -1,8 +1,9 @@
 language: ruby
 rvm:
-  - 2.5
+  - 2.5.3
 
-install: gem install jekyll html-proofer
+# We use gemfile instead, to use Gem bundle cache
+#install: gem install jekyll html-proofer
 
 script: jekyll build && htmlproofer --http-status-ignore "999" ./_site
 
