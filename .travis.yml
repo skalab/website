@@ -8,9 +8,10 @@ script:
   - echo "I am build @@BUILD_NUMBER@@"
   - sed -i -e "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" "_includes/footer.html"
   - cat "_includes/footer.html" | grep "build"
-  - echo "Now -> Jekyll time !"
+  - echo "Now -> Jekyll time"
   - jekyll build
   - htmlproofer --http-status-ignore "999" ./_site
+  - cat "_site/index.html" | grep "build"
 
 before_deploy:
   - ssh-keyscan -H $FTP_URL 2>&1 | tee -a $HOME/.ssh/known_hosts
