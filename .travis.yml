@@ -15,7 +15,7 @@ before_deploy:
 deploy:
   skip_cleanup: true
   provider: script
-  script: cd ./_site && lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "cd www ; mput .htaccess; mput favicon.ico ; mput *.html ; mput -d css/* ; mput -d js/* ; mput -d img/* ; mput -d php/* ; exit"
+  script: lftp -u ${FTP_USER},${FTP_PASS} sftp://${FTP_URL} -e "mirror -v -R ./_site/ ./www/ ; exit"
   on:
     branch: master
 
