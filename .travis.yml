@@ -5,7 +5,10 @@ rvm:
 install: gem install jekyll html-proofer
 
 script:
-  - sed -i "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" _includes/footer.html
+  - echo "I am build @@BUILD_NUMBER@@"
+  - sed -i -e "s/@@BUILD_NUMBER@@/$TRAVIS_BUILD_NUMBER/" "_includes/footer.html"
+  - cat "_includes/footer.html" | grep "build"
+  - echo "Now -> Jekyll time !"
   - jekyll build
   - htmlproofer --http-status-ignore "999" ./_site
 
