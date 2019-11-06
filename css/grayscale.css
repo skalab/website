@@ -264,7 +264,11 @@
   margin-top: 5rem;
 }
 
-.contact-section .social a {
+footer .social {
+  font-size: 150%;
+}
+
+.social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -274,11 +278,11 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.contact-section .social a:hover {
+.social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.contact-section .social a:active {
+.social a:active {
   color: #fff;
 }
 
