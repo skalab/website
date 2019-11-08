@@ -18,13 +18,13 @@ layout: default
             <div class="col">
               <div class="form-group">
                 <label class="text-white" for="inputName">Votre nom</label>
-                <input type="nom" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Nom" required>
+                <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" placeholder="Nom" required>
               </div>
             </div>
             <div class="col">
               <div class="form-group">
                 <label class="text-white" for="inputFirstName">Votre prénom</label>
-                <input type="prenom" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputFirstName" placeholder="Prénom" required>
+                <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputFirstName" placeholder="Prénom" required>
               </div>
             </div>
           </div>
@@ -32,13 +32,13 @@ layout: default
             <div class="col">
               <div class="form-group">
                   <label class="text-white" for="inputMail">Votre adresse mail</label>
-                  <input type="mail" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMail" placeholder="Mail" required>
+                  <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMail" placeholder="Mail" required>
               </div>
             </div>
             <div class="col">
               <div class="form-group">
                 <label class="text-white" for="inputPhone">Votre numéro de téléphone</label>
-                <input type="phone" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputPhone" placeholder="Téléphone">
+                <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputPhone" placeholder="Téléphone">
               </div>
             </div>
           </div>
