@@ -50,7 +50,7 @@ if ($success)
 }
 else
 {
-    echo "invalid";
+    echo "error";
 }
  
 ?>
