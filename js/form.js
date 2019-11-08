@@ -24,11 +24,11 @@ function submitSignupForm(){
                 $( "#signupForm" ).addClass("hidden");
             }
         },
-                error : function(){
+        error : function(){
             formError();
         },
         complete : function(text){
-            if (text != "success"){
+            if (text == "error"){
                 formError();
             }
        }
@@ -56,7 +56,7 @@ function submitContactForm(){
             formError();
         },
         complete : function(text){
-            if (text != "success"){
+            if (text == "error"){
                 formError();
             }
        }
