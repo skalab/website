@@ -8,7 +8,7 @@ if (!isset($_POST["email"]))
 
 $email = htmlspecialchars($_POST["email"]);
 $name = htmlspecialchars($_POST["name"]);
-$firstname = htmlspecialchars($_POST["firstName"]);
+$firstName = htmlspecialchars($_POST["firstName"]);
 $phone = htmlspecialchars($_POST["phone"]);
 $message = htmlspecialchars($_POST["message"]);
 $ip = getenv("REMOTE_ADDR");
