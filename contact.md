@@ -47,7 +47,7 @@ layout: default
             <textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMessage" rows="4" placeholder="Votre petit message"></textarea>
           </div>
           <div class="form-group text-white-50">
-          <p>Skalab s'engage à protéger et à respecter votre vie privée. En validant, vous autorisez Skalab à stocker et traiter les données personnelles soumises afin qu’elle vous fournisse le contenu demandé.</p>
+          <p>Skalab s'engage à protéger et à respecter votre vie privée. En validant, vous autorisez Skalab à stocker et traiter les données personnelles soumises afin de vous fournir le contenu demandé.</p>
           <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
           </div>
         </form>
