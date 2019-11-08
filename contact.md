@@ -44,14 +44,15 @@ layout: default
           </div>
           <div class="form-group">
             <label class="text-white" for="inputMessage">Votre petit message</label>
-            <textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMessage" rows="4">Saisissez votre message</textarea>
+            <textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMessage" rows="4" placeholder="Votre petit message"></textarea>
           </div>
           <div class="form-group text-white-50">
           <p>Skalab s'engage à protéger et à respecter votre vie privée. En validant, vous autorisez Skalab à stocker et traiter les données personnelles soumises afin qu’elle vous fournisse le contenu demandé.</p>
           <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
           </div>
         </form>
-        <div id="msgSubmit" class="text-white h2 hidden">Message envoyé 😉</div>
+        <div id="msgSubmitSuccess" class="text-white h3 hidden">Message envoyé 😉</div>
+        <div id="msgSubmitError" class="text-white h4 mt-2 hidden">❌<br />Erreur lors de l'envoi du message 😥<br />Essayez par téléphone ?</div>
       </div>
     </div>
   </div>

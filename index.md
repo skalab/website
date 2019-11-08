@@ -138,11 +138,12 @@ layout: default
     <div class="col-md-10 col-lg-8 mx-auto text-center">
       <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
       <h2 class="text-white mb-5">Discutons de vos projets ou obtenez un devis</h2>
-      <form class="form-inline d-flex" id="contactForm">
-        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Votre mail pour être recontacté 🗣️" required>
+      <form class="form-inline d-flex" id="signupForm">
+        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMail" placeholder="Votre mail pour être recontacté 🗣️" required>
         <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
       </form>
-      <div id="msgSubmit" class="text-white h2 hidden">Message envoyé 😉</div>
+      <div id="msgSubmitSuccess" class="text-white h2 hidden">Message envoyé 😉</div>
+      <div id="msgSubmitError" class="text-white h3 hidden mt-4">❌<br />Erreur lors de l'envoi du message 😥<br />Essayez par téléphone ?</div>
     </div>
   </div>
 </div>
