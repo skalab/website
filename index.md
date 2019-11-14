@@ -10,7 +10,7 @@ layout: default
     <h1 class="mx-auto my-0 text-uppercase">Make your tech ideas awesome</h1>
     <h2 class="text-white-50 mx-auto mt-2 mb-5">Experts cloud, infra et architecture, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
     <a href="#devops" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="fas fa-code fa-lg"></i> Nos services</a>    
-    <a href="#about" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="fas fa-users fa-lg"></i> Nous connaitre️</a>
+    <a href="#about" class="btn btn-secondary btn-fix m-2 js-scroll-trigger"><i class="fas fa-users fa-lg"></i> Nous connaitre️</a>
   </div>
 </div>
 </header>
