@@ -4,13 +4,14 @@ layout: article
 
 subtitle: 🚀 Les Movings Motivators 
 author: Gaël Barbier
-permalink: /moving-motivators/
+permalink: /blog/moving-motivators/
 tags:
 - Management 3.0
 - Leadership
 reading-time: 5
 summary: "Quand t'es-tu amusé la dernière fois sur ce projet, et pourquoi ?<br />Nous posons régulièrement cette question quand nous accompagnons une équipe. <br />Pour ne rien vous cacher, les réponses sont rarements claires. 🤔<br />5 minutes pour découvrir un outil de management 3.0 qui peut nous aider à répondre à la question."
 background-image: /img/moving-motivators.png
+
 ---
 
 Après quelques années passées dans des équipes de développeurs, j'ai vu ces questions sur la motivation des équipes revenir des centaines de fois :
@@ -91,13 +92,13 @@ Placez les cartes en face de vous, prenez le temps de les découvrir.
 
 ### Ce qui est important pour moi 🤔
 
-Vous ordonnez les cartes en ligne, de gauche à droite. Placez les facteurs de motivation selon votre ordre d'importance. Le plus important pour vous à gauche, le moins important à droite.
-Les extrèmes sont plutots simples à identifier (pardonnez cette phrase...), le plus dur est le centre : vous allez devoir arbitrer et faire des choix.
+Vous ordonnez les cartes en ligne, de gauche à droite. Placez les facteurs de motivation selon votre ordre d'importance. Le plus important pour vous à droite, le moins important à gauche.
+Les extrèmes sont plutôt simples à identifier (pardonnez cette phrase...), le plus dur est le centre : vous allez devoir arbitrer et faire des choix.
 
 <img class="img-fluid" src="/img/moving-motivators-1.jpg" alt="Moving Motivators"> 
 
 Premier constat : il y a autant de combinaison que d'invividu. Le résultat, notamment le trio de tête, est TRES différents selon les personnes.
-Chez moi, la liberté est en premier. Par contre, l'acceptation est vraiment peu importante pour moi.
+Chez moi, la liberté est en premier. Par contre, l'acceptation m'est vraiment peu importante.
 
 ### Pourquoi je me sens motivé / démotivé en ce moment ? (👍 ou 👎)
 Pour la suite, positionnez-vous dans une situation précise : mon boulot ou un projet sur lequel vous travaillez en ce moment.
