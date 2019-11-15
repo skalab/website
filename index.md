@@ -9,31 +9,51 @@ layout: default
   <div class="mx-auto text-center">
     <h1 class="mx-auto my-0 text-uppercase">Make your tech ideas awesome</h1>
     <h2 class="text-white-50 mx-auto mt-2 mb-5">Experts cloud, infra et architecture, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
-    <a href="#devops" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="fas fa-code fa-lg"></i> Nos services</a>    
+    <a href="#services" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="fas fa-code fa-lg"></i> Nos services</a>    
     <a href="#about" class="btn btn-secondary btn-fix m-2 js-scroll-trigger"><i class="fas fa-users fa-lg"></i> Nous connaitre️</a>
   </div>
 </div>
 </header>
 
 <!-- About Section -->
-<section id="about" class="about-section text-center">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 mx-auto">
-      <h2 class="text-white mb-4">Vous avez une idée pour mieux faire tourner le monde ? 🌍</h2>
-      <p class="text-white-50">
-        <b>Orienté sur les valeurs et indépendant</b>,<br />on vous accompagne sur la construction tech de vos idées.<br />
-        <br />
-        Nous aidons à initier, co-créons et accélérons vos projets. 🚀<br />
-        Nous nous rassemblons autour de notre expertise technique DevOps, Cloud<br />et de management réinventé pour aller chercher le potentiel des humains de votre équipe.<br />
-        <br />
-        On préfère vous prévenir : on est complètement fan
-        des healthtech/assurtech, d'IoT, de sécurité et d'éducation. ❤️
-      </p>
-    </div>
-  </div>
-  <img src="/img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
-</div>
+<section id="services" class="about-section">
+	<div class="container text-center">
+	  <div class="row mb-5">
+	    <div class="col-lg-10 mx-auto">
+	      	<h2 class="text-white mb-4">Ce que nous pouvons faire pour vous 👨‍💻</h2>
+			<div class="card-deck">
+			  <div class="card text-center border-0">
+			    <img src="/img/service-devops.jpg" class="card-img-top" alt="Skalab">
+			    <div class="card-body">
+			      <h4 class="card-title">Créer votre infrastructure from scratch</h4>
+			      <hr class="d-none d-lg-block mr-0">
+			      <p class="card-text">Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.</p>
+			    </div>
+			    <a class="card-footer btn btn-primary" href="#devops">En savoir plus</a>
+			  </div>
+			  <div class="card text-center border-0">
+			  <img src="/img/service-infra.jpg" class="card-img-top" alt="Skalab">
+			    <div class="card-body">
+			      <h4 class="card-title">Déployer votre application dans le cloud</h4>
+			      <hr class="d-none d-lg-block mr-0">
+			      <p class="card-text">On vous accompagne dans la transition cloud de votre infrastructure et de vos applications.</p>
+			    </div>
+			    <a class="card-footer btn btn-primary" href="#devops">En savoir plus</a>
+			  </div>
+			  <div class="card text-center border-0">
+			  	<img src="/img/service-team.jpg" class="card-img-top" alt="Skalab">
+			    <div class="card-body">
+			      <h4 class="card-title">Gérer votre infra Ops au quotidien</h4>
+			      <hr class="d-none d-lg-block mr-0">
+			      <p class="card-text">Vous concevez l'application, notre équipe d'Ops gère votre infra et sa mise en production.</p>
+			    </div>
+			    <a class="card-footer btn btn-primary" href="#devops">En savoir plus</a>
+			  </div>
+			</div>
+	    </div>
+	  </div>
+	 <img src="/img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
+	</div>
 </section>
 
 <!-- Les projets -->
