@@ -32,7 +32,7 @@ layout: default
       </p>
     </div>
   </div>
-  <img src="img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
+  <img src="/img/myunicorn.png" class="img-fluid" alt="Startup tech unicorn">
 </div>
 </section>
 
@@ -109,7 +109,7 @@ layout: default
 <!-- Management 3.0 -->
 	  <div class="row justify-content-center no-gutters">
 	    <div class="col-lg-6">
-	      <img class="img-fluid" src="img/service-management.jpg" alt="Management 3.0">
+	      <img class="img-fluid" src="/img/service-management.jpg" alt="Management 3.0">
 	    </div>
 	    <div class="col-lg-6 order-lg-first">
 	      <div class="bg-black text-center h-100 project">
@@ -127,24 +127,17 @@ layout: default
 	      </div>
 	    </div>
 	  </div>
-
 	</div>
 </section>
 
-<!-- Signup Section -->
+<!-- Contact Section -->
 <section id="signup" class="signup-section">
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 col-lg-8 mx-auto text-center">
-      <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-      <h2 class="text-white mb-5">Discutons de vos projets ou obtenez un devis</h2>
-      <form class="form-inline d-flex" id="signupForm">
-        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputMail" placeholder="Votre mail pour être recontacté 🗣️" required>
-        <button type="submit" class="btn btn-primary mx-auto">Envoyer</button>
-      </form>
-      <div id="msgSubmitSuccess" class="text-white h2 hidden">Message envoyé 😉</div>
-      <div id="msgSubmitError" class="text-white h3 hidden mt-4">❌<br />Erreur lors de l'envoi du message 😥<br />Essayez par téléphone ?</div>
-    </div>
-  </div>
-</div>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-10 col-lg-8 mx-auto text-center">
+	      <h2 class="text-white mb-5">Discutons de vos projets ou obtenez un devis</h2>
+	      <a href="/contact.html" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="far fa-paper-plane fa-lg"></i> Contactez-nous</a>   
+	    </div>
+	  </div>
+	</div>
 </section>
