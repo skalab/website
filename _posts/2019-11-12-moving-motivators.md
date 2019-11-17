@@ -170,7 +170,7 @@ Un retour d'expérience vous branche ? Un article arrivera bientôt !
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h2 class="display-4">Et vous, c'est quoi votre liste de moving motivators ?</h2>
-    <p class="lead">Nous proposons la découverte de cet outil dans nos formations Management 3.0 pour les équipes et managers tech 👨‍🏫</p>  
+    <p class="lead">Nous proposons la découverte de cet outil dans nos [formation Management 3.0](/index.html#formation "Formation") pour les équipes et managers tech 👨‍🏫</p>
 <a href="/contact.html" class="btn btn-secondary js-scroll-trigger">Planifier un talk</a>
     
 </div>
