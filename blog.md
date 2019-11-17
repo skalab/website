@@ -4,9 +4,13 @@ layout: default
 permalink: /blog/
 ---
 
-<div class="container">
-<br /><br /><br /><br />
+<header class="article-head mb-5" style="background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.75)), color-stop(75%, rgba(22, 22, 22, 0.3)), to(#161616)), url(/img/bg-masthead.jpg); background: linear-gradient(to bottom, rgba(22, 22, 22, 0.75) 0%, rgba(22, 22, 22, 0.3) 75%, #161616 100%) url(/img/bg-masthead.jpg); background-position: center; background-repeat: no-repeat; background-attachment: scroll; background-size: cover;">
+<div class="container d-flex align-items-center">
+  <div class="mx-auto text-center pb-3">
+    <h1 class="text-white mx-auto pb-3 text-uppercase head-title">Blog et meetups</h1>
+  </div>
 </div>
+</header>
 
 <!-- Article list -->
 <section id="blog" class="article-list">
