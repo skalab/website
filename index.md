@@ -127,7 +127,7 @@ layout: default
 	  </div>
 
 <!-- Management 3.0 -->
-	  <div class="row justify-content-center no-gutters">
+	  <div id="formation" class="row justify-content-center no-gutters">
 	    <div class="col-lg-6">
 	      <img class="img-fluid" src="/img/service-management.jpg" alt="Management 3.0">
 	    </div>
