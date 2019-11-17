@@ -28,7 +28,14 @@ layout: default
 </header>
 
 <div class="container article">
-  <div class="row mt-4 mb-4">
+   <nav class="mt-4" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Skalab</a></li>
+      <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+  <div class="row mb-4">
     <div class="col-lg-3 mx-auto m-4">
       <a href="/index.html" class="btn btn-secondary btn-fix"><i class="fas fa-arrow-left fa-lg"></i> Retourner sur Skalab.fr</a>
     </div>
