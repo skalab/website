@@ -156,7 +156,7 @@ layout: default
 	  <div class="row">
 	    <div class="col-md-10 col-lg-8 mx-auto text-center">
 	      <h2 class="text-white mb-5">Discutons de vos projets ou obtenez un devis</h2>
-	      <a href="/contact.html" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="far fa-paper-plane fa-lg"></i> Contactez-nous</a>   
+	      <a href="/contact" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="far fa-paper-plane fa-lg"></i> Contactez-nous</a>   
 	    </div>
 	  </div>
 	</div>

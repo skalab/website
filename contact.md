@@ -1,6 +1,7 @@
 ---
 title: Contact
 layout: default
+permalink: /contact/
 ---
 
 <section id="contact" class="contact-section bg-black">
