@@ -28,6 +28,7 @@ jobs:
       uses: chabad360/htmlproofer@master
       with:
         directory: "${{ github.workspace }}/_site/"
+        arguments: "--http-status-ignore 999"
 
     - name: 📂 Deploy on FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
