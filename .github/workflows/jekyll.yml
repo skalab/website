@@ -38,7 +38,6 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: skalab-website-build
-    - run: ls .
     - name: 🛂 Check HTML
       uses: chabad360/htmlproofer@master
       with:
@@ -54,12 +53,11 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: skalab-website-build
-    - run: ls .
     - name: 📂 Deploy on FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: "_site/"
+        local-dir: "./"
         server-dir: "www/"
