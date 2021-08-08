@@ -62,24 +62,24 @@ layout: default
 
 <!-- Devops -->
 		<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-		<div class="col-lg-6">
-		  <img class="img-fluid" src="img/service-devops.jpg" alt="DevOps">
-		</div>
-		<div class="col-lg-6">
-		  <div class="bg-black text-center h-100 project">
-		    <div class="d-flex h-100">
-		      <div class="project-text w-100 my-auto text-center text-lg-left">
-		        <h4 class="text-white">DevOps ⛓️⚙️</h4>
-		        <p class="mb-0 text-white-50">
-		          Intégration continue, tests automatisés, déploiement continu, brisage des silos Biz / Ops / Dev, évangélisation du mindset agile <br />
-		          <br />
-		          Nous sommes persuadés que la collaboration entre les techs, l'automatisation et l’amélioration continue sont essentiels.
-		        </p>
-		        <hr class="d-none d-lg-block mb-0 ml-0">
-		      </div>
-		    </div>
-		  </div>
-		</div>
+			<div class="col-lg-6">
+			  <img class="img-fluid" src="img/service-devops.jpg" alt="DevOps">
+			</div>
+			<div class="col-lg-6">
+			  <div class="bg-black text-center h-100 project">
+			    <div class="d-flex h-100">
+			      <div class="project-text w-100 my-auto text-center text-lg-left">
+			        <h4 class="text-white">DevOps ⛓️⚙️</h4>
+			        <p class="mb-0 text-white-50">
+			          Intégration continue, tests automatisés, déploiement continu, brisage des silos Biz / Ops / Dev, évangélisation du mindset agile <br />
+			          <br />
+			          Nous sommes persuadés que la collaboration entre les techs, l'automatisation et l’amélioration continue sont essentiels.
+			        </p>
+			        <hr class="d-none d-lg-block mb-0 ml-0">
+			      </div>
+			    </div>
+			  </div>
+			</div>
 		</div>
 
 <!-- Cloud -->
@@ -95,7 +95,7 @@ layout: default
 	            <p class="mb-0 text-white-50">
 	              Infra As Code, conteneurs, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting, VOIP.<br />
 	              <br />Créer votre infra , migrer vers le cloud, etc.<br />
-	              Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.
+	              Nous concevons des architectures pour déployer vos applications rapidement et sans coupure.
 	            </p>
 	            <hr class="d-none d-lg-block mb-0 mr-0">
 	          </div>
@@ -126,6 +126,7 @@ layout: default
 	    </div>
 	  </div>
 
+	</div>
 </section>
 
 <!-- Contact Section -->
