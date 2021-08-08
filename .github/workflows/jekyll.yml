@@ -21,6 +21,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        echo "Builded files in /_site/"
+        ls -la ${{ github.workspace }}/_site/
 
     - name: 📂 Deploy on FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -28,4 +30,5 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: "_site/"
         server-dir: "www/"
