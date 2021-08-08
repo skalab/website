@@ -11,7 +11,6 @@ permalink: /contact/
         <h2><i class="far fa-paper-plane text-white"></i>  Contact</h2>
         <div class="text-white-50"><h5>Discutons de vos projets ou obtenez un devis</h5></div>
         <h5 class="mt-4">Skalab</h5>
-        06 66 96 32 46<br />
       </div>
       <div class="col-md-8 mt-4 mx-auto">
         <form class="" id="contactForm">

@@ -8,7 +8,7 @@ layout: default
 <div class="container d-flex h-100 align-items-center">
   <div class="mx-auto text-center">
     <h1 class="mx-auto my-0 text-uppercase">Make your tech ideas awesome</h1>
-    <h2 class="text-white-50 mx-auto mt-2 mb-5">Experts cloud, infra et architecture, nous accompagnons les startups et les entreprises du numérique au travers du DevOps et du Management 3.0 🚀</h2>
+    <h2 class="text-white-50 mx-auto mt-2 mb-5">Experts cloud, infra et architecture, nous accompagnons les startups et les entreprises du numérique dans leurs projets tech et télécom 🚀</h2>
     <a href="#services" class="btn btn-primary btn-fix m-2 js-scroll-trigger"><i class="fas fa-code fa-lg"></i> Nos services</a>    
     <a href="#about" class="btn btn-secondary btn-fix m-2 js-scroll-trigger"><i class="fas fa-users fa-lg"></i> Nous connaitre️</a>
   </div>
@@ -93,8 +93,8 @@ layout: default
 	          <div class="project-text w-100 my-auto text-center text-lg-right">
 	            <h4 class="text-white">Architecture et infrastructure cloud ☁️🎯</h4>
 	            <p class="mb-0 text-white-50">
-	              Infra As Code, conteneurs, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting.<br />
-	              <br />Créer votre infra from scratch, migrer vers le cloud, ...<br />
+	              Infra As Code, conteneurs, haute-disponibilité, IoT, cloud, 24/7 monitoring et alerting, VOIP.<br />
+	              <br />Créer votre infra , migrer vers le cloud, etc.<br />
 	              Nous concevons des architectures robustes pour vous permettre de déployer vos applications rapidement et sans coupure.
 	            </p>
 	            <hr class="d-none d-lg-block mb-0 mr-0">
@@ -126,28 +126,6 @@ layout: default
 	    </div>
 	  </div>
 
-<!-- Management 3.0 -->
-	  <div id="formation" class="row justify-content-center no-gutters">
-	    <div class="col-lg-6">
-	      <img class="img-fluid" src="/img/service-management.jpg" alt="Management 3.0">
-	    </div>
-	    <div class="col-lg-6 order-lg-first">
-	      <div class="bg-black text-center h-100 project">
-	        <div class="d-flex h-100">
-	          <div class="project-text w-100 my-auto text-center text-lg-right">
-	            <h4 class="text-white">Innovation managériale 💡</h4>
-	            <p class="mb-0 text-white-50">
-	              Se connaître, mieux communiquer, travailler en groupe, gérer le conflit.<br />
-	              <br />
-	              Management 3.0, moving motivators, leadership development, intelligence collective, cowalking.<br />
-	              Issues des pratiques Agiles, nous animons des <b>formations</b> et <b>ateliers</b> avec pour seul objectif : rendre les individus meilleurs.</p>
-	            <hr class="d-none d-lg-block mb-0 mr-0">
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
 </section>
 
 <!-- Contact Section -->

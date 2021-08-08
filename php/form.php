@@ -13,7 +13,7 @@ $phone = htmlspecialchars($_POST["phone"]);
 $message = htmlspecialchars($_POST["message"]);
 $ip = getenv("REMOTE_ADDR");
  
-$EmailTo = "gael@skalab.fr";
+$EmailTo = "team@skalab.fr";
 $Subject = "Skalab: nouveau contact de ".$email;
 
 $Body .= "Email: ";

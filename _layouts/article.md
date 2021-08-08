@@ -46,12 +46,12 @@ layout: default
   <div class="row">
     <div class="col-lg-1 ">
       <div class="social d-flex justify-content-center mb-3">
-        <a href="https://www.linkedin.com/in/gael-barbier/" target="_blank" class="mx-2">
+        <a href="https://www.linkedin.com/company/skalab/" target="_blank" class="mx-2">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </div>
       <div class="social d-flex justify-content-center mb-3">
-        <a href="https://github.com/gaeldb" target="_blank" class="mx-2">
+        <a href="https://github.com/skalab" target="_blank" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
       </div>
