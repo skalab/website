@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Website CD
 
 on:
   push:
@@ -15,6 +15,11 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
       run: |
+        ls -la ${{ github.workspace }}
+        echo "I am build ${{ github.run_number }}"
+        sed -i -e "s/${{ github.run_number }}/$TRAVIS_BUILD_NUMBER/" "_includes/footer.html"
+        echo "Now -> Jekyll time"
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        ls -la ${{ github.workspace }}
