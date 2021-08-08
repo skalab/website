@@ -25,9 +25,9 @@ jobs:
         ls -la ${{ github.workspace }}/_site/
     - name: Generate artifact
       uses: actions/upload-artifact@v2
-        with:
-          name: skalab-website-build
-          path: "${{ github.workspace }}/_site/"
+      with:
+        name: skalab-website-build
+        path: "${{ github.workspace }}/_site/"
        
   test:
     name: Test HTML
