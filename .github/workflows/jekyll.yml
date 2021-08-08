@@ -7,12 +7,12 @@ on:
     branches: [ master ]
 
 jobs:
-  deploy:
+  build:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
-
     - name: 🔨 Build the site in the jekyll/builder container
       run: |
         echo "I am build ${{ github.run_number }}"
@@ -23,13 +23,38 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
         echo "Builded files in /_site/"
         ls -la ${{ github.workspace }}/_site/
-        
+    - name: Generate artifact
+      uses: actions/upload-artifact@v2
+        with:
+          name: skalab-website-build
+          path: "${{ github.workspace }}/_site/"
+       
+  test:
+    name: Test HTML
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+    - name: 📦 Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: skalab-website-build
+    - run: ls .
     - name: 🛂 Check HTML
       uses: chabad360/htmlproofer@master
       with:
-        directory: "${{ github.workspace }}/_site/"
+        directory: "./"
         arguments: "--http-status-ignore 999"
 
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: [build, test]
+    steps:
+    - name: 📦 Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: skalab-website-build
+    - run: ls .
     - name: 📂 Deploy on FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
