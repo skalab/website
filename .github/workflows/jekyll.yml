@@ -23,6 +23,11 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
         echo "Builded files in /_site/"
         ls -la ${{ github.workspace }}/_site/
+        
+    - name: 🛂 Check HTML
+      uses: chabad360/htmlproofer@master
+      with:
+        directory: "${{ github.workspace }}/_site/"
 
     - name: 📂 Deploy on FTP
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
